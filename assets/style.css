@@ -1,25 +1,19 @@
-@font-face {
-    font-family: FIFA;
-    src: url(/assets/EASports.ttf);
-}
 
 body {
     height: 100%;
-    background: rgb(133,61,246);
-    background: linear-gradient(122deg, rgba(133,61,246,1) 0%, rgba(158,50,249,1) 35%, rgba(189,34,250,1) 100%);
+    background: #adb5bd;
     padding: 2%;
-    font-family: FIFA;
 }
 
 .navbar {
     background-color: transparent!important;
-    margin-bottom: 3%
+    margin-bottom: 3%;
 }
 
-.playerImg {
-    margin: auto;
-    height: 250px;
+#country_left_ddown, #country_right_ddown {
+    width: 100%;
 }
+
 
 .attributes_card {
     box-shadow: 5px 5px 4px #888888;
